@@ -62,6 +62,7 @@
 						build += '<h2 class="small-12 medium-6 columns">' + items[k].movies_title + '</h2>';
 						build += '<h3 class="small-12 medium-2 columns">' +"Release Year: "+ items[k].movies_year + '</h3>';
 						build += '<p class="small-12 medium-12 columns">' +"Plot"+'<br>'+ items[k].movies_storyline + '</p>';
+						build += '<a href="index.php" class="small-12 medium-12 columns">' +"< Back"+ '</a>';
 						build += '</div>';
 					}
 					con.innerHTML = build;
