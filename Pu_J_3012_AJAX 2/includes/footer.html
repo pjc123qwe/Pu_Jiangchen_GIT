@@ -1,0 +1,1 @@
+<h2>This content could be your footer</h2>
